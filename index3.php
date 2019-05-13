@@ -43,29 +43,7 @@ if ($result2->num_rows > 0) {
     echo "dont results";
 }
     
-    //  $speech = "Hi2, Nice to meet you"+"\n\n"+"Hi3, Nice to meet you";
-
-    // sendMessage(array(
-    //     "source" => $update["result"]["source"],
-    //     "speech" => "Hello from webhook",
-    //     "displayText" => "Hello from webhook",
-    //     "contextOut" => array()
-    // ));
-
     
-// function sendMessage($parameters) {
-//     echo json_encode($parameters);
-// }
-
-
-
-// $json->reply('Hi, how can I help?');
-// echo json_encode($json->render());
-	// $response = new \stdClass();
-	// $response->speech = $speech;
-	// $response->displayText = $speech;
-	// $response->source = "webhook";
-	// echo json_encode($response);
 }
 else
 {
